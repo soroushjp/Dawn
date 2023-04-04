@@ -77,7 +77,8 @@
                 <div class="author-list">
                     {{#foreach authors}}
                     <div class="author-image-placeholder u-placeholder square">
-                        <a href="{{url}}" title="{{name}}">
+                        {{!-- soroushjp: href replaced with '/about-me' for all authors to remove unnecessary author page --}}
+                        <a href="/about-me" title="{{name}}">
                             <img class="author-image u-object-fit" src="{{img_url profile_image size="xs"}}" alt="{{name}}" loading="lazy">
                         </a>
                     </div>
