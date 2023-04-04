@@ -11,7 +11,9 @@
 
         {{#if website}}
             <h1 class="author-name">
-                <a href="{{website}}" target="_blank" rel="noopener noreferrer">{{name}}</a>
+                {{!-- soroushjp: original from theme, commented out and replaced --}}
+                {{!-- <a href="{{website}}" target="_blank" rel="noopener noreferrer">{{name}}</a> --}}
+                <a href="/about-me" target="_blank" rel="noopener noreferrer">{{name}}</a>
             </h1>
         {{else}}
             <h1 class="author-name">{{name}}</h1>
